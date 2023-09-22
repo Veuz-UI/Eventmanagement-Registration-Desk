@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -190,6 +191,8 @@
                 </div>
 
             </div>
+            
+            <div class="d-flex rightside-btns">
             <div class="group">
                 <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
                     <g>
@@ -200,8 +203,6 @@
                 </svg>
                 <input placeholder="Search" type="search" class="input">
             </div>
-            <div class="d-flex rightside-btns">
-
                 <a href="select-attendee.php">
                     <button type="button" class="btn btn-kanlist ml-15 active waves-effect waves-light">
                         <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,18 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 :root {
     --main-font: 'Cairo', sans-serif;
-    /* --button-colors: #181818;
-    --small-tagline-color: #726B6B;
-    --discription-color1: #777777;
-    --black-color: #000000;
-    --black-color: #000000;
-    --white-color: #ffffff;
-    --home-about-bg: #EAE9E7;
-    --light-backgound: #F5F5F5;
-    --active-color: #DD1037;
-    --border-colors: #DEDEDE;
-    --head-label: #383838;
-    --view-more: #737373; */
+
 }
 
 a {
@@ -581,7 +570,8 @@ input:hover {
         top: 0%;
         left: 0%;
         position: relative;
-        padding: 0px 0px 60px 0px;
+        padding: 20px;
+        box-shadow: none;
     }
     .profile-info h2 {
         font-size: 20px;
