@@ -86,6 +86,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -94,7 +95,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -106,6 +107,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -114,7 +116,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -126,6 +128,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -134,7 +137,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -146,6 +149,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -154,7 +158,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -166,6 +170,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -174,7 +179,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -186,6 +191,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -194,7 +200,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -206,6 +212,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -214,7 +221,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>
@@ -226,6 +233,7 @@
                                         <h6><i class="fa-regular fa-calendar-days me-1"></i> Aug 23 to 25, 2023</h6>
                                     </div> 
                                     <div class="event-right">
+                                    <a href="home.php"><button type="button" class="btn btn-primary">Registration Desk</button></a>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Main Desk <i class="mdi mdi-chevron-down"></i></button>
                                             <div class="dropdown-menu">
@@ -234,7 +242,7 @@
                                             </div>
                                         </div>
                                        
-                                        <a href="agenda.php"><button type="button" class="btn btn-primary">Agenda</button></a>
+                                        <a href="agenda.php"><button type="button" class="btn btn-secondary">Agenda</button></a>
                                     </div>
                           
                                 </div>

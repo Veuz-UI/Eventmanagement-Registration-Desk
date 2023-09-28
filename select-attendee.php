@@ -380,7 +380,7 @@
 
 
 
-    <div class="modal common-modal fade" id="add-attandee" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal common-modal fade" id="add-attandee" data-bs-backdrop="static" tabindex="-1" aria-labelledby="..." style="display: none;">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header1">
@@ -507,12 +507,44 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="done-class">Done</button></a>
+                <button type="button" class="done-class" data-bs-toggle="modal" data-bs-target="#print-modal">Done</button>
                     <button type="button" class="btn cancel-button" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="print-modal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+       
+                <div class="modal-body">
+                    <div class="scan-result">
+                        <div class="logo-box">
+                            <img src="images/logo.png">
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center mb-3 badge-issue-btns">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Badge Issued</button>
+                           
+                    </div>
+                   
+                   
+                </div>
+                <div class="modal-footer print-btn">
+                    <button type="button" class="done-class" data-bs-dismiss="modal">Send Email</button></a>
+                    <button type="button" class="btn cancel-button" data-bs-dismiss="modal">Print</button>
+                    <button type="button" class="btn btn-outline-secondary badge-not" data-bs-dismiss="modal">Badge not Issued</button>
+                </div>
+           
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>

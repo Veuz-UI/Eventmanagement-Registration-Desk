@@ -27,22 +27,42 @@
     <!-- Preloader -->
     <div class="wrapper-box">
         <div class="content-box">
-            <div class="title-box">
+            <div class="title-box title-box1">
                 <div class="logo-box">
                     <img src="images/logo.png">
                 </div>
-
+                <div class="profile-info d-flex align-items-center justify-content-center flex-md-row flex-column">
+                    <img src="images/user.svg">
+                    <h2>Welcome Mohammed Navab</h2>
+                  
+                </div>
+                <h5>Hex Wale</h5>
+                <div class="event-role d-flex justify-content-center">
+                    <h3>Ticket ID: <span>1122334455</span></h3>
+                </div>
+                <div class="print-btns">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#print-modal">Print</button>
+                <button type="button" class="btn btn-danger">Reprint Badge</button>
+                </div>
             </div>
 
-            <div class="box-of-scan">
-                <div class="row d-flex align-items-center justify-content-center">
-                    <div class="col-lg-7">
-                        <div id="reader"></div>
-                        <input type="text" class="form-control">
+            <div class="box-of-qr">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-5 d-flex justify-content-center">
+                       <a href="scan.php"> <div class="center-qr">
+                            <i class="fa-solid fa-qrcode"></i>
+                            <div class="square">
+                                <div class="scan">
+                                </div>
+                            </div>
+                        </div></a>
                     </div>
-
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <button type="button" class="done-class" data-bs-toggle="modal" data-bs-target="#scan-result">Submit</button></a>
+                    <div class="col-lg-2 or-box">
+                        <h3>OR</h3>
+                    </div>
+                    <div class="col-lg-5 d-flex justify-content-center">
+                        <a href="select-attendee.php"><button type="button" class="select-attendee"> Select attendee
+                        </button></a>
                     </div>
                 </div>
             </div>
@@ -50,62 +70,33 @@
     </div>
 
 
-    <div class="modal fade" id="scan-result" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
+    <div class="modal fade" id="print-modal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
         <div class="modal-dialog modal-dialog-centered modal-md" role="document">
             <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Create Attendee</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div> -->
+       
                 <div class="modal-body">
                     <div class="scan-result">
                         <div class="logo-box">
                             <img src="images/logo.png">
                         </div>
-                        <div class="profile-info d-flex align-items-center justify-content-center flex-md-row flex-column">
-                            <img src="images/user.svg">
-                            <h2>Mohammed Navab</h2>
-                        </div>
-                       
-                        <img src="images/qr.svg" alt="" class="qrcode-img">
-                        <h6>m14-Q1l2b-Bq41-YeM</h6>
-                        <h5>Veuz Concepts Pvt Ltd</h5>
+
                     </div>
-                    <div class="col-md-12 d-flex justify-content-center mb-3">
-                        <button class="done-class" data-bs-toggle="modal" data-bs-target="#alert-msg" data-bs-dismiss="modal">Check In</button>
-                        <button type="button" class="btn cancel-button ms-2" data-bs-dismiss="modal">Check Out</button>
+                    <div class="col-md-12 d-flex justify-content-center mb-3 badge-issue-btns">
+                        <button class="btn btn-primary" data-bs-dismiss="modal">Badge Issued</button>
+                           
                     </div>
+                   
+                   
+                </div>
+                <div class="modal-footer print-btn">
+                    <button type="button" class="btn cancel-button" data-bs-dismiss="modal">Print</button>
+                    <button type="button" class="btn btn-outline-secondary badge-not" data-bs-dismiss="modal">Badge not Issued</button>
                 </div>
            
             </div>
         </div>
     </div>
 
-    <div id="alert-msg" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="icon-box red">
-                        <i class="fa-solid fa-exclamation"></i>
-                    </div>				
-                </div>
-                <div class="modal-body">
-                    <p class="text-center">Are you sure you want to check In ?</p>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
-                    <button class="btn cancel-button back-btn" data-bs-target="#scan-result" data-bs-toggle="modal" data-bs-dismiss="modal">Back</button>
-                </div>
-            </div>
-        </div>
-    </div>  
-
-    <div class="alert alert-success alert-dismissible" role="alert" style="display: none;">
-        <img src="images/gif-success.gif"> Your are successfully checked in.
-        <button type="button" class="alert-close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">x</span>
-        </button>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
@@ -148,16 +139,6 @@
 
 
         html5QrCodeScanner.render(onScanSuccess, onScanError);
-    </script>
-    <script>
-        $(function () {
-            $(".successful-btn").click(function () {
-                $(".alert-success").css("display", "block").delay(1000).fadeOut(400);
-            });
-            $(".alert-close").click(function () {
-                $(".alert-dismissible").css("display", "none").delay(1000).fadeOut(400);
-            });
-        });
     </script>
 </body>
 

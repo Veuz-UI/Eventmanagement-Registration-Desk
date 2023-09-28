@@ -489,19 +489,8 @@ input:hover {
 }
 
 .done-class {
-    width: 100px;
-    height: 40px;
-    background-color: #F14C4C;
-    border-radius: 50px;
-    border: none !important;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.done-class {
-    width: 100px;
-    height: 40px;
+    padding: 0px 20px;
+    height: 35px;
     background-color: #F14C4C;
     border-radius: 50px;
     border: none !important;
@@ -511,18 +500,15 @@ input:hover {
 }
 
 .cancel-button {
-    width: 100px;
-    height: 40px;
+    padding: 0px 20px;
+    height: 35px;
     background-color: #f5f5f5;
     border-radius: 50px;
     border: none !important;
     color: #333;
     font-size: 15px;
     font-weight: 600;
-}
-
-.cancel-button:hover {
-    background-color: #f5f5f5;
+    transition: 1s;
 }
 
 .backtohome {
@@ -1149,4 +1135,78 @@ input:hover {
 
 .form-grp .form-check input:hover{
     box-shadow: none;
+}
+
+.title-box1 h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 5px;
+}
+
+.title-box1 .event-role h3{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.print-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.print-btns .btn{
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 3px;
+    margin: 0px 2px;
+}
+
+.badge-issue-btns{
+    margin-top: 30px;
+}
+
+.badge-issue-btns .btn{
+    font-size: 15px !important;
+    padding: 0px 20px !important;
+    border-radius: 50px !important;
+    height: 35px;
+}
+
+.badge-not{
+    background: transparent;
+    border: 1px solid #ddd !important;
+    transition: 1s;
+    border-radius: 50px;
+}
+
+.badge-not:hover{
+    background: #74788d;
+    border: 1px solid #74788d !important;
+    color: white;
+    transition: 1s;
+}
+
+.print-btn{
+    padding: 8px 1rem !important;
+}
+
+.cancel-button:hover{
+    background: #74788d;
+    color: white;
+    transition: 1s;
+}
+
+.back-btn{
+    height: 40px;
+    width: 100px;
+}
+
+.print-btn button{
+    margin: 3px;
+    height: 32px;
+    font-size: 14px !important;
+    padding: 0px 16px !important;
 }
