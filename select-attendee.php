@@ -32,6 +32,11 @@
                     <i class="fa-solid fa-arrow-left"></i>
                 </div>
             </a>
+            <a href="index.php">
+                <div class="backtohome">
+                    <i class="fa-solid fa-house font-13"></i>
+                </div>
+            </a>
             <button type="button" class="create-attendee" data-bs-toggle="modal" data-bs-target="#add-attandee">
                 <i class="fa-solid fa-plus"></i> Create Attendee
             </button>
@@ -193,6 +198,14 @@
             </div>
             
             <div class="d-flex rightside-btns">
+                <div class="total-count-page">
+                    <h6>Show</h6>
+                    <select class="form-select">
+                        <option value="10">10</option>
+                        <option value="10" selected>20</option>
+                        <option value="10">50</option>
+                    </select>
+                </div>
             <div class="group">
                 <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
                     <g>
@@ -205,21 +218,21 @@
             </div>
                 <a href="select-attendee.php">
                     <button type="button" class="btn btn-kanlist ml-15 active waves-effect waves-light">
-                        <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="15" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
-                                d="M16.625 3.5625H2.375C2.21753 3.5625 2.06651 3.62506 1.95516 3.73641C1.84381 3.84776 1.78125 3.99878 1.78125 4.15625V14.25C1.78125 14.5649 1.90636 14.867 2.12906 15.0897C2.35176 15.3124 2.65381 15.4375 2.96875 15.4375H16.0312C16.3462 15.4375 16.6482 15.3124 16.8709 15.0897C17.0936 14.867 17.2188 14.5649 17.2188 14.25V4.15625C17.2188 3.99878 17.1562 3.84776 17.0448 3.73641C16.9335 3.62506 16.7825 3.5625 16.625 3.5625ZM2.96875 8.3125H5.9375V10.6875H2.96875V8.3125ZM7.125 8.3125H16.0312V10.6875H7.125V8.3125ZM2.96875 11.875H5.9375V14.25H2.96875V11.875ZM16.0312 14.25H7.125V11.875H16.0312V14.25Z"
+                                d="M0 5.5H2V4H0V5.5ZM0 9.5H2V8H0V9.5ZM0 1.5H2V0H0V1.5ZM4 5.5H18V4H4V5.5ZM4 9.5H18V8H4V9.5ZM4 0V1.5H18V0H4Z"
                                 fill="black"></path>
                         </svg>
                     </button>
                 </a>
                 <a href="select-attendee-list.php">
                     <button type="button" class="btn btn-kanlist ml-15 waves-effect waves-light">
-                        <svg width="15" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   
+                        <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
-                                d="M0 5.5H2V4H0V5.5ZM0 9.5H2V8H0V9.5ZM0 1.5H2V0H0V1.5ZM4 5.5H18V4H4V5.5ZM4 9.5H18V8H4V9.5ZM4 0V1.5H18V0H4Z"
+                                d="M16.625 3.5625H2.375C2.21753 3.5625 2.06651 3.62506 1.95516 3.73641C1.84381 3.84776 1.78125 3.99878 1.78125 4.15625V14.25C1.78125 14.5649 1.90636 14.867 2.12906 15.0897C2.35176 15.3124 2.65381 15.4375 2.96875 15.4375H16.0312C16.3462 15.4375 16.6482 15.3124 16.8709 15.0897C17.0936 14.867 17.2188 14.5649 17.2188 14.25V4.15625C17.2188 3.99878 17.1562 3.84776 17.0448 3.73641C16.9335 3.62506 16.7825 3.5625 16.625 3.5625ZM2.96875 8.3125H5.9375V10.6875H2.96875V8.3125ZM7.125 8.3125H16.0312V10.6875H7.125V8.3125ZM2.96875 11.875H5.9375V14.25H2.96875V11.875ZM16.0312 14.25H7.125V11.875H16.0312V14.25Z"
                                 fill="black"></path>
                         </svg>
-
                     </button>
                 </a>
             </div>
@@ -374,6 +387,21 @@
                         </div>
                     </div>
                 </div>
+               
+
+            </div>
+            <div class="bootom-nav">
+                
+                <div class="total-count">
+                    <h6>Total Count : <span>100</span></h6>
+                    <ul>
+                        <li><a href="#" class="disable"><i class="fas fa-angle-left"></i></a></li>
+                        <li><a href="#" class="active"><span>1</span></li>
+                        <li><a href="#"><span>2</span></li>
+                        <li><a href="#"><span>3</span></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -507,8 +535,9 @@
 
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="done-class" data-bs-toggle="modal" data-bs-target="#print-modal">Done</button>
-                    <button type="button" class="btn cancel-button" data-bs-dismiss="modal">Close</button>
+                    <a href="#"><button type="button" class="btn btn-primary text-uppercase br-50 btn-md" fdprocessedid="9xo294">Save and Close</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary text-uppercase br-50 btn-md" fdprocessedid="gy6yr4">Save and New</button></a>
+                    <button type="button" class="btn btn-light text-uppercase br-50 btn-md" data-bs-dismiss="modal" fdprocessedid="d8w4t">Close</button>
                 </div>
             </div>
         </div>

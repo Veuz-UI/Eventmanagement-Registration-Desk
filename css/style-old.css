@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 :root {
     --main-font: 'Cairo', sans-serif;
 
@@ -101,35 +100,6 @@ body {
         border-right-color: #F14C4C;
         border-bottom-color: #F14C4C;
     }
-}
-
-.btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #3B65EF;
-    --bs-btn-border-color: #3B65EF;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #2f5beb;
-    --bs-btn-hover-border-color: #2f5beb;
-    --bs-btn-focus-shadow-rgb: 111, 132, 234;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #2f5beb;
-    --bs-btn-active-border-color: #2f5beb;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #2f5beb;
-    --bs-btn-disabled-border-color: #2f5beb;
-}
-
-.modal{
-    --bs-modal-border-radius: 0px !important;
-}
-
-.modal-body{
-    padding: 0.75rem 2rem;
-}
-
-.modal-lg, .modal-xl {
-    --bs-modal-width: 700px;
 }
 
 .wrapper-box {
@@ -492,20 +462,7 @@ input:hover {
 
 .modal .form-control {
     font-size: 14px;
-    padding: 0.3rem 0.7rem;
-}
-
-.modal-footer>*{
-    margin: 0px;
-    margin-right: 10px;
-}
-
-.form-control{
-    border: 1px solid #ebebeb;
-}
-
-input.form-control::-webkit-input-placeholder{
-    color: #B1AFAF;
+    padding: 0.35rem 0.7rem;
 }
 
 .modal-body {
@@ -516,37 +473,12 @@ input.form-control::-webkit-input-placeholder{
     padding: 0.75rem 2rem 30px;
 }
 
-.modal-footer{
-    border-top: 0px;
-    padding: 0px 2rem 1.75rem;
-    justify-content: flex-start;
-}
-
-.modal .btn-md {
-    padding: 0.35rem 1.2rem;
-    font-size: 12px;
-    letter-spacing: .8px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.br-50 {
-    border-radius: 50px;
-}
-
 .modal .form-label {
-    font-size: 13.4px;
+    font-size: 14px;
     color: #263238;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: -.3px;
-}
-
-.modal .form-grp {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .select-inp i {
@@ -605,7 +537,6 @@ input.form-control::-webkit-input-placeholder{
     justify-content: center;
     align-items: center;
     margin-right: 10px;
-    transition: .5s;
 }
 
 .backtohome i {
@@ -620,21 +551,15 @@ input.form-control::-webkit-input-placeholder{
 }
 
 .table-responsive {
-    margin-top: 65px;
-}
-
-.table-responsive .table{
-    border-left: 1px solid #e8e8e8;
-    border-right: 1px solid #e8e8e8;
-    border-top: 1px solid #e8e8e8;
+    margin-top: 50px;
 }
 
 .box-table {
     background-color: #fff;
     height: 100vh;
-    padding-bottom: 34px;
     width: 100%;
     overflow: auto;
+    padding-bottom: 34px;
     border: 1px solid #ebebeb;
 }
 
@@ -833,20 +758,13 @@ input.form-control::-webkit-input-placeholder{
 }
 
 .table th {
-    vertical-align: bottom;
-    background-color: #F9FAFB;
-    font-weight: 600;
-    color: #263238;
-    padding: 0.2rem 0.75rem;
     font-size: 14.5px;
+    padding: 5px 8px;
 }
 
 .table td{
-    padding: 0.2rem 0.75rem;
-    font-weight: 600;
-    color: #263238;
     font-size: 14px;
-    vertical-align: middle;
+    padding: 5px 8px;
 }
 
 .float-right{
@@ -993,7 +911,6 @@ input.form-control::-webkit-input-placeholder{
 	text-align: center;
 	border-radius: 5px;
 	font-size: 13px;
-    padding: 10px;
 }	
 .modal-confirm .icon-box {
 	color: #fff;		
@@ -1172,11 +1089,11 @@ input.form-control::-webkit-input-placeholder{
 }
 
 .common-modal .modal-body{
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1.5rem 30px;
 }
 
 .modal-header1{
-    padding: 12px 2rem 10px;
+    padding: 12px 1.5rem 10px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ebebeb;
@@ -1195,9 +1112,7 @@ input.form-control::-webkit-input-placeholder{
 }
 
 .header-logo-img img{
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+    width: 100%;
 }
 
 .modal-header1 .modal-header-info h2{
@@ -1234,8 +1149,6 @@ input.form-control::-webkit-input-placeholder{
 .form-grp .form-check label{
     line-height: 13px;
     padding-left: 5px;
-    color: #8c8c8c;
-
 }
 
 .form-grp .form-check input:hover{
@@ -1255,19 +1168,19 @@ input.form-control::-webkit-input-placeholder{
     font-size: 15px;
 }
 
-.print-btns {
+.print-btns{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
-  }
-  
-  .print-btns .btn {
+}
+
+.print-btns .btn{
     font-size: 14px;
     padding: 3px 15px;
     border-radius: 3px;
     margin: 0px 2px;
-  }
+}
 
 .badge-issue-btns{
     margin-top: 30px;
@@ -1280,17 +1193,14 @@ input.form-control::-webkit-input-placeholder{
     height: 35px;
 }
 
-.badge-issue-btns .badge-not {
+.badge-not{
     background: transparent;
     border: 1px solid #ddd !important;
-    padding: 0px 20px;
-    font-size: 15px;
-    border-radius: 50px;
-    height: 35px;
     transition: 1s;
-  }
+    border-radius: 50px;
+}
 
-.badge-issue-btns .badge-not:hover {
+.badge-not:hover{
     background: #74788d;
     border: 1px solid #74788d !important;
     color: white;
@@ -1317,15 +1227,6 @@ input.form-control::-webkit-input-placeholder{
     height: 32px;
     font-size: 14px !important;
     padding: 0px 16px !important;
-    border-radius: 50px;
-}
-
-.print-btn .badge-not{
-    border: 1px solid #ebebeb;
-}
-
-.print-btn .cancel-button{
-    width: auto;
 }
 
 .total-count-page{
@@ -1445,51 +1346,3 @@ input.form-control::-webkit-input-placeholder{
     transition: .8s;
 }
 
-.backtohome .font-13{
-    font-size: 13px;
-}
-
-.backtohome:hover{
-    background: #333;
-    border-color: #333;
-    transition: .5s;
-}
-
-.backtohome:hover i{
-    color: white;
-    transition: .5s;
-}
-
-.attandee-crfrm-btn {
-    border-radius: 50px;
-    background-color: #3B65EF;
-    border: none !important;
-    color: white;
-    height: 25px;
-    padding: 0px 16px;
-    font-size: 13px;
-    transition: 1s;
-}
-
-.attandee-crfrm-btn:hover{
-    background-color: #254ccb;
-    color: white !important;
-    transition: 1s;
-}
-
-.attandee-cncl-btn {
-    border-radius: 50px;
-    color: #74788d;
-    background-color: rgba(116, 120, 141, .1);
-    border: none !important;
-    margin-left: 10px;
-    height: 25px;
-    padding: 0px 16px;
-    font-size: 13px;
-    transition: 1s;
-}
-
-.attandee-cncl-btn:hover{
-    background-color: rgba(116, 120, 141, .3);
-    transition: 1s;
-}
